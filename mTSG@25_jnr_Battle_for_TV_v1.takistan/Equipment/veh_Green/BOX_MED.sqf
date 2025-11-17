@@ -15,4 +15,4 @@ _veh addItemcargoglobal ["ACE_bloodIV_500", 10];
 _veh addItemcargoglobal ["ACE_tourniquet", 10];
 _veh addItemcargoglobal ["ACE_personalAidKit", 10];
 _veh addItemcargoglobal ["ACE_splint", 10];
-_veh addBackpackcargoglobal ["cgr_kitbag_tent_packed_rgr", 2];
+_veh addBackpackcargoglobal ["cgr_kitbag_tent_packed_rgr", 1];

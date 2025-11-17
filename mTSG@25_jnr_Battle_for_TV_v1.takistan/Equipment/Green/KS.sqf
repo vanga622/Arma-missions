@@ -1,4 +1,4 @@
-
+	
 comment "Add weapons";
 this addWeapon "RH_M4A1_ris";
 this addPrimaryWeaponItem "rhsusf_acc_ACOG";

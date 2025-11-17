@@ -8,22 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=180;
+		nextID=193;
 	};
 	class MarkerIDProvider
 	{
-		nextID=2;
+		nextID=3;
 	};
 	class LayerIndexProvider
 	{
-		nextID=67;
+		nextID=79;
 	};
 	class Camera
 	{
-		pos[]={1368.8015,208.2422,11872.729};
-		dir[]={0.08092732,-0.82435924,0.56032825};
-		up[]={0.11784347,0.56603158,0.81591105};
-		aside[]={0.98977172,-6.1606988e-07,-0.14295159};
+		pos[]={1816.6696,223.24486,11981.003};
+		dir[]={0.24435447,-0.95756418,0.15284541};
+		up[]={0.81182778,0.28822026,0.50780392};
+		aside[]={0.53030801,7.4505806e-09,-0.84780508};
 	};
 };
 binarizationWanted=0;
@@ -37,27 +37,6 @@ addons[]=
 	"rhs_c_cars",
 	"A3A_Modules",
 	"A3_Characters_F_Enoch",
-	"RH_m4_cfg",
-	"ace_compat_rh_m4",
-	"kka3_TFAR_events",
-	"RH_acc",
-	"rhsusf_c_weapons",
-	"tu_arty_config",
-	"A3_Weapons_F",
-	"tfar_handhelds",
-	"bwa3_headgear",
-	"lop_faction_am_c",
-	"pzn_rhs_ak74_config",
-	"tu_immersion_recoils",
-	"hlc_to_rhs",
-	"rhs_c_weapons",
-	"lop_faction_chr_civ_c",
-	"ace_medical_treatment",
-	"hlcweapons_SAW_c",
-	"ace_compat_rhs_usf3",
-	"tu_rebalance_rhs_blue",
-	"tu_launchertweaks",
-	"zim",
 	"Jbad_tv_a",
 	"CUP_Editor_Structures_Config",
 	"A3_Ui_F",
@@ -67,13 +46,16 @@ addons[]=
 	"A3_Props_F_Enoch_Military_Equipment",
 	"A3_Props_F_Enoch_Military_Camps",
 	"tu_avrs_cup",
-	"sge_vehicles_mgs_c"
+	"sge_vehicles_mgs_c",
+	"ace_medical_treatment",
+	"RH_m4_cfg",
+	"bn_csw_load"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=37;
+		items=19;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -124,185 +106,77 @@ class AddonsMetaData
 		};
 		class Item7
 		{
-			className="RH_m4_cfg";
-			name="RH_m4_cfg";
-		};
-		class Item8
-		{
-			className="ace_compat_rh_m4";
-			name="ACE3 - RH M4 Compatibility";
-			author="Команда ACE";
-			url="http://ace3mod.com/";
-		};
-		class Item9
-		{
-			className="kka3_TFAR_events";
-			name="kka3_TFAR_events";
-		};
-		class Item10
-		{
-			className="RH_acc";
-			name="RH_acc";
-		};
-		class Item11
-		{
-			className="rhsusf_c_weapons";
-			name="RHSUSF Weapons & Accessories";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item12
-		{
-			className="tu_arty_config";
-			name="tu_arty_config";
-		};
-		class Item13
-		{
-			className="A3_Weapons_F";
-			name="Arma 3 Alpha - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item14
-		{
-			className="tfar_handhelds";
-			name="tfar_handhelds";
-			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
-		};
-		class Item15
-		{
-			className="bwa3_headgear";
-			name="Bundeswehr - Hats and Helmets";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item16
-		{
-			className="lop_faction_am_c";
-			name="lop_faction_am_c";
-			author="Leight";
-		};
-		class Item17
-		{
-			className="pzn_rhs_ak74_config";
-			name="pzn_rhs_ak74_config";
-		};
-		class Item18
-		{
-			className="tu_immersion";
-			name="tu_immersion_recoils";
-		};
-		class Item19
-		{
-			className="hlc_to_rhs";
-			name="hlc_to_rhs";
-			author="Blender, Griggs";
-		};
-		class Item20
-		{
-			className="rhs_c_weapons";
-			name="AFRF Weapons Pack";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item21
-		{
-			className="lop_faction_chr_civ_c";
-			name="lop_faction_chr_civ_c";
-			author="Leight";
-		};
-		class Item22
-		{
-			className="ace_medical_treatment";
-			name="ACE3 - Medical Treatment";
-			author="Команда ACE";
-			url="http://ace3mod.com/";
-		};
-		class Item23
-		{
-			className="hlcweapons_SAW_c";
-			name="hlcweapons_SAW_c";
-			author="toadie";
-		};
-		class Item24
-		{
-			className="ace_compat_rhs_usf3";
-			name="ACE3 - RHS USF Compatibility";
-			author="Команда ACE";
-			url="http://ace3mod.com/";
-		};
-		class Item25
-		{
-			className="tu_rebalance_rhs_blue";
-			name="tu_rebalance_rhs_blue";
-		};
-		class Item26
-		{
-			className="tu_launchertweaks";
-			name="TU - Launcher Tweaks";
-			author="Команда Тушино";
-			url="https://tsgames.ru";
-		};
-		class Item27
-		{
-			className="zim";
-			name="zim";
-		};
-		class Item28
-		{
 			className="Jbad_tv_a";
 			name="Jbad_tv_a";
 		};
-		class Item29
+		class Item8
 		{
 			className="CUP_Editor_Structures_Config";
 			name="CUP_Editor_Structures_Config";
 		};
-		class Item30
+		class Item9
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item10
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item32
+		class Item11
 		{
 			className="A3_Structures_F_Argo";
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item33
+		class Item12
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item34
+		class Item13
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item35
+		class Item14
 		{
 			className="tu_avrs_cup";
 			name="TU - Avrs CUP";
 		};
-		class Item36
+		class Item15
 		{
 			className="sge_vehicles_mgs_c";
 			name="SGE - Vehicles MGS Config";
 			author="Tarantino";
+		};
+		class Item16
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="Команда ACE";
+			url="http://ace3mod.com/";
+		};
+		class Item17
+		{
+			className="RH_m4_cfg";
+			name="RH_m4_cfg";
+		};
+		class Item18
+		{
+			className="bn_csw_load";
+			name="bn_csw_load";
+			author="Tushino Serious Games, [ODK]Bn_, [RFP]Griggs, [HA]PARTYzan";
 		};
 	};
 };
@@ -310,9 +184,6 @@ dlcs[]=
 {
 	"RHS_AFRF",
 	"Enoch",
-	"LOP_LeightsOPFOR",
-	"RHS_USAF",
-	"Niarms_SAW",
 	"Argo",
 	"Contact",
 	"Expansion"
@@ -379,7 +250,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=19;
+		items=24;
 		class Item0
 		{
 			dataType="Group";
@@ -3687,7 +3558,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1368.0879,200.40012,11874.277};
+						position[]={1825.1624,145.87143,11946.551};
+						angles[]={0,5.5629835,0};
 					};
 					side="Independent";
 					flags=7;
@@ -3697,62 +3569,6 @@ class Mission
 						init="[this,""Green"",""KS""] call SerP_unitprocessor; this setVariable [""isTank"",true];";
 						description="Командир Сабир «Стратег Теории» Гулам";
 						isPlayable=1;
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="RH_M4A1_ris";
-								optics="RH_ta01nsn_2D";
-								class primaryMuzzleMag
-								{
-									name="rhs_mag_30Rnd_556x45_M855A1_Stanag";
-									ammoLeft=30;
-								};
-							};
-							class binocular
-							{
-								name="TU_B8_Binocular";
-							};
-							class uniform
-							{
-								typeName="LOP_U_AM_Fatigue_01";
-								isBackpack=0;
-							};
-							class backpack
-							{
-								typeName="TFAR_anprc155_coyote";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=3;
-									class Item0
-									{
-										name="rhs_mag_30Rnd_556x45_M855A1_Stanag";
-										count=6;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="rhs_mag_m67";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="rhs_mag_an_m8hc";
-										count=2;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="TFAR_microdagr";
-							radio="ItemRadio";
-							gps="ItemGPS";
-							goggles="BWA3_G_Combat_black";
-							headgear="H_ShemagOpen_khk";
-						};
 					};
 					id=94;
 					type="I_E_Survivor_F";
@@ -3909,7 +3725,1004 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1370.302,200.16174,11874.018};
+						position[]={1828.6935,145.8761,11949.265};
+						angles[]={0,5.5193925,0};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""Green"",""Rad""] call SerP_unitprocessor; ";
+						description="Радист Мурад «Немой» Камран";
+						isPlayable=1;
+					};
+					id=90;
+					type="I_E_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="tu_grenade_traps_objectsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="tu_grenade_traps_objectsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="tu_grenade_traps_altMode";
+							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="tu_grenade_traps_bodiesArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="tu_grenade_traps_terrainArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02POL";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="tu_grenade_traps_terrainDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="tu_grenade_traps_doorsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="tu_grenade_traps_doorsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="tu_grenade_traps_bodiesDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=11;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1830.8641,145.88083,11950.993};
+						angles[]={0,5.5193925,0};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""Green"",""MG""] call SerP_unitprocessor; ";
+						description="Пулеметчик Джамиль «СтоПатронов» Хан";
+						isPlayable=1;
+					};
+					id=88;
+					type="I_E_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="tu_grenade_traps_objectsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="tu_grenade_traps_objectsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="tu_grenade_traps_altMode";
+							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="tu_grenade_traps_bodiesArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="tu_grenade_traps_terrainArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03POL";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="tu_grenade_traps_terrainDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="tu_grenade_traps_doorsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="tu_grenade_traps_doorsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="tu_grenade_traps_bodiesDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=11;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1832.7448,145.87904,11952.733};
+						angles[]={0,5.5193925,0};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""Green"",""MG""] call SerP_unitprocessor; ";
+						description="Пулеметчик  Хабиб «ТриЛентыБезСмысла» Юсуф";
+						isPlayable=1;
+					};
+					id=86;
+					type="I_E_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="tu_grenade_traps_objectsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="tu_grenade_traps_objectsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="tu_grenade_traps_altMode";
+							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="tu_grenade_traps_bodiesArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="tu_grenade_traps_terrainArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02POL";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="tu_grenade_traps_terrainDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="tu_grenade_traps_doorsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="tu_grenade_traps_doorsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="tu_grenade_traps_bodiesDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=11;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1834.6746,145.87596,11953.912};
+						angles[]={0,5.5193925,0};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""Green"",""RPG""] call SerP_unitprocessor; ";
+						description="Гранатометчик Ахмад «Бум-Бум» Карим";
+						isPlayable=1;
+					};
+					id=84;
+					type="I_E_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="tu_grenade_traps_objectsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="tu_grenade_traps_objectsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="tu_grenade_traps_altMode";
+							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="tu_grenade_traps_bodiesArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="tu_grenade_traps_terrainArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01POL";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="tu_grenade_traps_terrainDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="tu_grenade_traps_doorsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="tu_grenade_traps_doorsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="tu_grenade_traps_bodiesDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=11;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1836.5376,145.87297,11955.491};
+						angles[]={0,5.5193925,0};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""Green"",""RPGA""] call SerP_unitprocessor; ";
+						description="Помощник гранатометчика Фарук «НеТудаНавел» Али";
+						isPlayable=1;
+					};
+					id=82;
+					type="I_E_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="tu_grenade_traps_objectsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="tu_grenade_traps_objectsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="tu_grenade_traps_altMode";
+							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="tu_grenade_traps_bodiesArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="tu_grenade_traps_terrainArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.94999999;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03POL";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="tu_grenade_traps_terrainDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="tu_grenade_traps_doorsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="tu_grenade_traps_doorsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="tu_grenade_traps_bodiesDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=11;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1838.1613,145.87248,11956.712};
+						angles[]={0,5.5193925,0};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""Green"",""SNP""] call SerP_unitprocessor; ";
+						description="Снайпер Наем «БезПромаха» Хайдар    ";
+						isPlayable=1;
+					};
+					id=71;
+					type="I_E_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="tu_grenade_traps_objectsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="tu_grenade_traps_objectsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="tu_grenade_traps_altMode";
+							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="tu_grenade_traps_bodiesArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="tu_grenade_traps_terrainArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01POL";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="tu_grenade_traps_terrainDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="tu_grenade_traps_doorsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="tu_grenade_traps_doorsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="tu_grenade_traps_bodiesDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=11;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1826.8286,145.87143,11947.908};
+						angles[]={0,5.5193925,0};
 					};
 					side="Independent";
 					flags=5;
@@ -3918,128 +4731,6 @@ class Mission
 						init="[this,""Green"",""MED""] call SerP_unitprocessor; ";
 						description="Медик Омид «ПластырьДоПоследнего» Нассир";
 						isPlayable=1;
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="rhs_pzn_weap_akmn";
-								muzzle="rhs_acc_dtkakm";
-								class primaryMuzzleMag
-								{
-									name="rhs_30Rnd_762x39mm_bakelite";
-									ammoLeft=30;
-								};
-							};
-							class uniform
-							{
-								typeName="LOP_U_CHR_Doctor_01";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="rhs_30Rnd_762x39mm_bakelite";
-										count=1;
-										ammoLeft=30;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="rhs_assault_umbts";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=4;
-									class Item0
-									{
-										name="rhs_30Rnd_762x39mm_bakelite";
-										count=4;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="rhs_30Rnd_762x39mm_bakelite_tracer";
-										count=2;
-										ammoLeft=30;
-									};
-									class Item2
-									{
-										name="rhs_mag_m67";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="rhs_mag_an_m8hc";
-										count=2;
-										ammoLeft=1;
-									};
-								};
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_personalAidKit";
-										count=3;
-									};
-									class Item1
-									{
-										name="ACE_quikclot";
-										count=15;
-									};
-									class Item2
-									{
-										name="ACE_fieldDressing";
-										count=15;
-									};
-									class Item3
-									{
-										name="ACE_elasticBandage";
-										count=15;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=15;
-									};
-									class Item5
-									{
-										name="ACE_tourniquet";
-										count=5;
-									};
-									class Item6
-									{
-										name="ACE_epinephrine";
-										count=5;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=5;
-									};
-									class Item8
-									{
-										name="ACE_salineIV";
-										count=2;
-									};
-									class Item9
-									{
-										name="ACE_surgicalKit";
-										count=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="TFAR_microdagr";
-							radio="ItemRadio";
-							gps="ItemGPS";
-							goggles="BWA3_G_Combat_black";
-							headgear="H_ShemagOpen_khk";
-						};
 					};
 					id=92;
 					type="I_E_Survivor_F";
@@ -4204,1205 +4895,6 @@ class Mission
 						nAttributes=12;
 					};
 				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1372.655,199.9081,11873.574};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-						init="[this,""Green"",""Rad""] call SerP_unitprocessor; ";
-						description="Радист Мурад «Немой» Камран";
-						isPlayable=1;
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="RH_M4A1_ris";
-								optics="rhsusf_acc_eotech_552";
-								class primaryMuzzleMag
-								{
-									name="rhs_mag_30Rnd_556x45_M855A1_Stanag";
-									ammoLeft=30;
-								};
-							};
-							class binocular
-							{
-								name="TU_B8_Binocular";
-							};
-							class uniform
-							{
-								typeName="LOP_U_AM_Fatigue_01";
-								isBackpack=0;
-							};
-							class backpack
-							{
-								typeName="TFAR_anprc155_coyote";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=3;
-									class Item0
-									{
-										name="rhs_mag_30Rnd_556x45_M855A1_Stanag";
-										count=6;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="rhs_mag_m67";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="rhs_mag_an_m8hc";
-										count=2;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="TFAR_microdagr";
-							radio="ItemRadio";
-							gps="ItemGPS";
-							goggles="BWA3_G_Combat_black";
-							headgear="H_ShemagOpen_khk";
-						};
-					};
-					id=90;
-					type="I_E_Survivor_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="tu_grenade_traps_objectsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="tu_grenade_traps_objectsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="tu_grenade_traps_altMode";
-							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="tu_grenade_traps_bodiesArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="tu_grenade_traps_terrainArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.97000003;
-								};
-							};
-						};
-						class Attribute6
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male02POL";
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="tu_grenade_traps_terrainDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute8
-						{
-							property="tu_grenade_traps_doorsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute9
-						{
-							property="tu_grenade_traps_doorsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute10
-						{
-							property="tu_grenade_traps_bodiesDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						nAttributes=11;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1375.525,199.57256,11873.261};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-						init="[this,""Green"",""MG""] call SerP_unitprocessor; ";
-						description="Пулеметчик Джамиль «СтоПатронов» Хан";
-						isPlayable=1;
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="hlc_m249_pip3";
-								class primaryMuzzleMag
-								{
-									name="rhsusf_200Rnd_556x45_box";
-									ammoLeft=200;
-								};
-							};
-							class uniform
-							{
-								typeName="LOP_U_AM_Fatigue_01";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="rhsusf_200Rnd_556x45_box";
-										count=1;
-										ammoLeft=200;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="B_Kitbag_tan";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=4;
-									class Item0
-									{
-										name="rhsusf_200Rnd_556x45_box";
-										count=2;
-										ammoLeft=200;
-									};
-									class Item1
-									{
-										name="rhsusf_200rnd_556x45_mixed_box";
-										count=1;
-										ammoLeft=200;
-									};
-									class Item2
-									{
-										name="rhs_mag_an_m8hc";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="rhs_mag_m67";
-										count=2;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="TFAR_microdagr";
-							radio="ItemRadio";
-							gps="ItemGPS";
-							goggles="BWA3_G_Combat_black";
-							headgear="H_ShemagOpen_khk";
-						};
-					};
-					id=88;
-					type="I_E_Survivor_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="tu_grenade_traps_objectsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="tu_grenade_traps_objectsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="tu_grenade_traps_altMode";
-							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="tu_grenade_traps_bodiesArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="tu_grenade_traps_terrainArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.98000002;
-								};
-							};
-						};
-						class Attribute6
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male03POL";
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="tu_grenade_traps_terrainDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute8
-						{
-							property="tu_grenade_traps_doorsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute9
-						{
-							property="tu_grenade_traps_doorsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute10
-						{
-							property="tu_grenade_traps_bodiesDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						nAttributes=11;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1377.9821,199.18381,11872.96};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-						init="[this,""Green"",""MG""] call SerP_unitprocessor; ";
-						description="Пулеметчик  Хабиб «ТриЛентыБезСмысла» Юсуф";
-						isPlayable=1;
-					};
-					id=86;
-					type="I_E_Survivor_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="tu_grenade_traps_objectsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="tu_grenade_traps_objectsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="tu_grenade_traps_altMode";
-							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="tu_grenade_traps_bodiesArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="tu_grenade_traps_terrainArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.04;
-								};
-							};
-						};
-						class Attribute6
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male02POL";
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="tu_grenade_traps_terrainDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute8
-						{
-							property="tu_grenade_traps_doorsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute9
-						{
-							property="tu_grenade_traps_doorsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute10
-						{
-							property="tu_grenade_traps_bodiesDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						nAttributes=11;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1380.309,198.81772,11872.701};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-						init="[this,""Green"",""RPG""] call SerP_unitprocessor; ";
-						description="Гранатометчик Ахмад «Бум-Бум» Карим";
-						isPlayable=1;
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="rhs_pzn_weap_akmn";
-								muzzle="rhs_acc_dtkakm";
-								class primaryMuzzleMag
-								{
-									name="rhs_30Rnd_762x39mm_bakelite";
-									ammoLeft=30;
-								};
-							};
-							class secondaryWeapon
-							{
-								name="rhs_weap_smaw";
-								optics="rhs_weap_optic_smaw";
-								class primaryMuzzleMag
-								{
-									name="rhs_mag_smaw_HEAA";
-									ammoLeft=1;
-								};
-								class secondaryMuzzleMag
-								{
-									name="rhs_mag_smaw_SR";
-									ammoLeft=5;
-								};
-							};
-							class uniform
-							{
-								typeName="LOP_U_AM_Fatigue_01";
-								isBackpack=0;
-							};
-							class backpack
-							{
-								typeName="B_Kitbag_tan";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=6;
-									class Item0
-									{
-										name="rhs_mag_smaw_HEAA";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item1
-									{
-										name="rhs_mag_smaw_SR";
-										count=2;
-										ammoLeft=5;
-									};
-									class Item2
-									{
-										name="rhs_30Rnd_762x39mm_bakelite";
-										count=2;
-										ammoLeft=30;
-									};
-									class Item3
-									{
-										name="rhs_30Rnd_762x39mm_bakelite_tracer";
-										count=1;
-										ammoLeft=30;
-									};
-									class Item4
-									{
-										name="rhs_mag_m67";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="rhs_mag_an_m8hc";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="TFAR_microdagr";
-							radio="ItemRadio";
-							gps="ItemGPS";
-							goggles="BWA3_G_Combat_black";
-							headgear="H_ShemagOpen_khk";
-						};
-					};
-					id=84;
-					type="I_E_Survivor_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="tu_grenade_traps_objectsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="tu_grenade_traps_objectsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="tu_grenade_traps_altMode";
-							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="tu_grenade_traps_bodiesArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="tu_grenade_traps_terrainArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute6
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male01POL";
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="tu_grenade_traps_terrainDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute8
-						{
-							property="tu_grenade_traps_doorsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute9
-						{
-							property="tu_grenade_traps_doorsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute10
-						{
-							property="tu_grenade_traps_bodiesDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						nAttributes=11;
-					};
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1382.92,198.4577,11872.419};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-						init="[this,""Green"",""RPGA""] call SerP_unitprocessor; ";
-						description="Помощник гранатометчика Фарук «НеТудаНавел» Али";
-						isPlayable=1;
-					};
-					id=82;
-					type="I_E_Survivor_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="tu_grenade_traps_objectsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="tu_grenade_traps_objectsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="tu_grenade_traps_altMode";
-							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="tu_grenade_traps_bodiesArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="tu_grenade_traps_terrainArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.94999999;
-								};
-							};
-						};
-						class Attribute6
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male03POL";
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="tu_grenade_traps_terrainDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute8
-						{
-							property="tu_grenade_traps_doorsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute9
-						{
-							property="tu_grenade_traps_doorsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute10
-						{
-							property="tu_grenade_traps_bodiesDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						nAttributes=11;
-					};
-				};
-				class Item7
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1385.744,198.09462,11872.316};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-						init="[this,""Green"",""SNP""] call SerP_unitprocessor; ";
-						description="Снайпер Наем «БезПромаха» Хайдар    ";
-						isPlayable=1;
-					};
-					id=71;
-					type="I_E_Survivor_F";
-					atlOffset=-1.5258789e-05;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="tu_grenade_traps_objectsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="tu_grenade_traps_objectsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="tu_grenade_traps_altMode";
-							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="tu_grenade_traps_bodiesArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="tu_grenade_traps_terrainArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.99000001;
-								};
-							};
-						};
-						class Attribute6
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male01POL";
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="tu_grenade_traps_terrainDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute8
-						{
-							property="tu_grenade_traps_doorsArmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute9
-						{
-							property="tu_grenade_traps_doorsDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute10
-						{
-							property="tu_grenade_traps_bodiesDisarmingBy";
-							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						nAttributes=11;
-					};
-				};
 			};
 			class Attributes
 			{
@@ -5494,7 +4986,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={1820.821,175.24899,11907.595};
-			name="Красный элипс";
+			name="r";
 			markerType="ELLIPSE";
 			type="";
 			colorName="ColorRed";
@@ -5644,7 +5136,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={1823.527,145.927,11965.227};
-			name="Целевой дом";
+			name="blue";
 			markerType="RECTANGLE";
 			type="";
 			colorName="ColorBlue";
@@ -6351,7 +5843,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1369.778,200.11507,11882.954};
+						position[]={1860.7151,145.88144,11965.111};
+						angles[]={0,5.765295,0};
 					};
 					side="Independent";
 					flags=7;
@@ -6516,7 +6009,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1373.262,199.75847,11882.532};
+						position[]={1862.1542,145.88144,11965.759};
+						angles[]={0,5.765295,0};
 					};
 					side="Independent";
 					flags=5;
@@ -7054,8 +6548,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1373.3502,199.65689,11888.795};
-				angles[]={0.041573741,1.6242907,6.1763887};
+				position[]={1859.5417,146.04344,11969.688};
+				angles[]={0,1.1224078,0};
 			};
 			side="Empty";
 			flags=4;
@@ -7067,6 +6561,7 @@ class Mission
 			};
 			id=176;
 			type="CUP_B_M1128_MGS_Desert";
+			atlOffset=0.00065612793;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7090,8 +6585,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1370.557,200.12791,11876.309};
-				angles[]={0.0064053587,3.2785487,6.1763887};
+				position[]={1825.7384,145.87015,11949.36};
+				angles[]={6.2816033,2.4515595,0.0015822123};
 			};
 			side="Empty";
 			flags=4;
@@ -7117,6 +6612,177 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1824.0498,146.05617,11947.986};
+				angles[]={0,5.6067481,0.0015358897};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this,""Green"",""DSHK_AMMO_BOX""] call SerP_vehprocessor;";
+			};
+			id=185;
+			type="RH_m4m16camobox";
+			atlOffset=-0.0010223389;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1823.3878,146.05305,11948.748};
+				angles[]={0,5.5970941,0.001544081};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=186;
+			type="BN_DSHKMH_box";
+			atlOffset=-0.0010681152;
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1828.394,146.06213,11951.626};
+				angles[]={0,2.4301093,0.0015822123};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this,""Green"",""AMMO_BOX""] call SerP_vehprocessor;";
+			};
+			id=190;
+			type="BN_NSV_box";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item22
+		{
+			dataType="Marker";
+			position[]={1864.916,147.875,11811.74};
+			name="red";
+			markerType="ELLIPSE";
+			type="";
+			colorName="ColorRed";
+			a=0.1;
+			b=0.1;
+			id=191;
+			atlOffset=-0.0002746582;
+		};
+		class Item23
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1400.2152,196.61116,11826.324};
+				angles[]={0.041575778,0,6.219274};
+			};
+			id=192;
+			type="A3A_NoFreezeVehicles";
+		};
+	};
+	class Connections
+	{
+		class LinkIDProvider
+		{
+			nextID=5;
+		};
+		class Links
+		{
+			items=5;
+			class Item0
+			{
+				linkID=0;
+				item0=176;
+				item1=98;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item1
+			{
+				linkID=1;
+				item0=179;
+				item1=92;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item2
+			{
+				linkID=2;
+				item0=186;
+				item1=94;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item3
+			{
+				linkID=3;
+				item0=185;
+				item1=94;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item4
+			{
+				linkID=4;
+				item0=192;
+				item1=176;
+				class CustomData
+				{
+					type="Sync";
+				};
 			};
 		};
 	};

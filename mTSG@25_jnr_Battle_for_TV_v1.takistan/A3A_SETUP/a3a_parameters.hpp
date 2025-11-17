@@ -15,7 +15,7 @@ class Params {
 		title = "$STR_A3RU_preTime";
 		values[] = {60, 300, 420, 600, 900, 1200, 1500, 1800};
 		texts[] = {"1m", "5m", "7m", "10m", "15m", "20m", "25m", "30m"};
-		default = 900;
+		default = 180;
 	};
 	class a3a_params_slotReservation {
 		title = "$STR_A3RU_slotReservation";

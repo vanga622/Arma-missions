@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=9;
+		nextID=11;
 	};
 	class Camera
 	{
-		pos[]={11982.003,144.04884,12493.811};
-		dir[]={-0.84044743,-0.22956094,0.4909811};
-		up[]={-0.19824426,0.97328484,0.11581231};
-		aside[]={0.50445539,3.6443816e-07,0.86350864};
+		pos[]={12041.071,150.23193,12491.817};
+		dir[]={-0.089592278,-0.36725542,0.92588466};
+		up[]={-0.035375688,0.93011224,0.36558527};
+		aside[]={0.99544102,1.9231811e-07,0.096321888};
 	};
 };
 binarizationWanted=0;
@@ -62,9 +62,39 @@ randomSeed=13216324;
 class ScenarioData
 {
 	author="vanga";
+	respawn=1;
 };
 class CustomAttributes
 {
+	class Category1
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Seagull";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
 };
 class Mission
 {
@@ -99,7 +129,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=2;
+				items=3;
 				class Item0
 				{
 					dataType="Object";
@@ -433,6 +463,172 @@ class Mission
 						nAttributes=11;
 					};
 				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11978.53,139.99438,12500.125};
+						angles[]={0,1.9549607,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""Blue"",""Oper""] call SerP_unitprocessor;";
+						description="Оперативник";
+						isPlayer=1;
+					};
+					id=9;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="tu_grenade_traps_objectsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="tu_grenade_traps_objectsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="tu_grenade_traps_altMode";
+							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="tu_grenade_traps_bodiesArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="tu_grenade_traps_terrainArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="tu_grenade_traps_terrainDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="tu_grenade_traps_doorsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="tu_grenade_traps_doorsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="tu_grenade_traps_bodiesDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=11;
+					};
+				};
 			};
 			class Attributes
 			{
@@ -445,7 +641,7 @@ class Mission
 			side="Independent";
 			class Entities
 			{
-				items=1;
+				items=2;
 				class Item0
 				{
 					dataType="Object";
@@ -540,6 +736,172 @@ class Mission
 								{
 									singleType="SCALAR";
 									value=1.05;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02POL";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="tu_grenade_traps_terrainDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="tu_grenade_traps_doorsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="tu_grenade_traps_doorsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_doorsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="tu_grenade_traps_bodiesDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=11;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={12041.266,140.00143,12499.133};
+						angles[]={0,3.5275373,0};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""Green"",""zKS""] call SerP_unitprocessor;";
+						description="зКС";
+						isPlayable=1;
+					};
+					id=10;
+					type="I_E_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="tu_grenade_traps_objectsArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="tu_grenade_traps_objectsDisarmingBy";
+							expression="_this setVariable ['tu_grenade_traps_objectsDisarmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="tu_grenade_traps_altMode";
+							expression="_this setVariable ['tu_grenade_traps_altMode',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="tu_grenade_traps_bodiesArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_bodiesArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="tu_grenade_traps_terrainArmingBy";
+							expression="_this setVariable ['tu_grenade_traps_terrainArmingBy',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
 								};
 							};
 						};

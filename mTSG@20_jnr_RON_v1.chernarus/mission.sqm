@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11994.928,149.82132,12494.388};
-		dir[]={0.9656539,-0.25976747,-0.0084328922};
-		up[]={0.25976673,0.96566707,-0.0022679877};
-		aside[]={-0.0087329885,1.3260433e-07,-0.999982};
+		pos[]={12040.876,142.23441,12496.011};
+		dir[]={0.69510674,-0.30970579,0.64881098};
+		up[]={0.22641115,0.95082712,0.21133231};
+		aside[]={0.68235922,2.0419247e-07,-0.7310496};
 	};
 };
 binarizationWanted=0;
@@ -37,13 +37,17 @@ addons[]=
 	"CUP_Creatures_Military_BAF",
 	"lop_faction_un_c",
 	"pzn_armor_degrade",
-	"A3_Characters_F_Enoch"
+	"A3_Characters_F_Enoch",
+	"hlcweapons_g3_c",
+	"RH_de_cfg",
+	"PBW_German_Headgear",
+	"rds_a2port_cman"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=16;
+		items=20;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -143,6 +147,30 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item16
+		{
+			className="hlcweapons_g3_c";
+			name="hlcweapons_g3_c";
+			author="toadie";
+		};
+		class Item17
+		{
+			className="RH_de_cfg";
+			name="RH_de_cfg";
+			author="RobertHammer";
+		};
+		class Item18
+		{
+			className="PBW_German_Headgear";
+			name="PBW_German_Headgear";
+		};
+		class Item19
+		{
+			className="rds_a2port_cman";
+			name="RDS Civilian Pack Characters";
+			author="reyhard";
+			url="https://forums.bistudio.com/topic/170165-rds-a2-civilian-pack/";
+		};
 	};
 };
 dlcs[]=
@@ -152,7 +180,10 @@ dlcs[]=
 	"RHS_USAF",
 	"CUP_Units",
 	"LOP_LeightsOPFOR",
-	"Enoch"
+	"Enoch",
+	"Niarms_G3",
+	"PBW_Kleiderkammer",
+	"RDS_CIV_PACK"
 };
 randomSeed=13216324;
 class ScenarioData
@@ -806,6 +837,81 @@ class Mission
 					{
 						init="[this,""Green"",""KS""] call SerP_unitprocessor;";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="hlc_rifle_hk51";
+								class primaryMuzzleMag
+								{
+									name="hlc_20rnd_762x51_b_G3";
+									ammoLeft=20;
+								};
+							};
+							class handgun
+							{
+								name="RH_fn57_g";
+								class primaryMuzzleMag
+								{
+									name="RH_20Rnd_57x28_FN";
+									ammoLeft=20;
+								};
+							};
+							class binocular
+							{
+								name="TU_B8_Binocular";
+							};
+							class uniform
+							{
+								typeName="rhs_uniform_abu";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="hlc_20rnd_762x51_b_G3";
+										count=3;
+										ammoLeft=20;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="TFAR_anprc155_coyote";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="RH_20Rnd_57x28_FN";
+										count=3;
+										ammoLeft=20;
+									};
+									class Item1
+									{
+										name="hlc_20rnd_762x51_b_G3";
+										count=4;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="hlc_20rnd_762x51_Mk316_G3";
+										count=3;
+										ammoLeft=20;
+									};
+									class Item3
+									{
+										name="hlc_20rnd_762x51_T_G3";
+										count=1;
+										ammoLeft=20;
+									};
+								};
+							};
+							goggles="PBW_Brille_schwarz";
+							headgear="rds_police_cap";
+						};
 					};
 					id=8;
 					type="I_E_Survivor_F";

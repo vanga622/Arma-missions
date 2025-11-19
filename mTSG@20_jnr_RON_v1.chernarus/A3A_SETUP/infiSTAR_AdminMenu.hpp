@@ -33,6 +33,8 @@ class ScrollBar
 arrowEmpty="#(argb,8,8,3)color(1,1,1,1)";
 arrowFull="#(argb,8,8,3)color(1,1,1,1)";
 border="#(argb,8,8,3)color(1,1,1,1)";
+color[]={1,1,1,0.6};
+colorActive[]={1,1,1,1};
 colorDisabled[]={1,1,1,0.3};
 thumb="#(argb,8,8,3)color(1,1,1,1)";
 };

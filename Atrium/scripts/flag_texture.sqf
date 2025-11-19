@@ -1,0 +1,1 @@
+flag1 forceFlagTexture "pics\def.paa";

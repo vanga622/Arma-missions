@@ -21,7 +21,7 @@ blueforprepareFreezetimeCondition[] = {};
 
 // Противоборствующие стороны ("WEST", "EAST", "INDEPENDENT")
 blueforSide = "WEST";
-opforSide =  "EAST";
+opforSide =  "INDEPENDENT";
 
 // Интро (0 - нет, 1 - да)
 UAVIntro = 0;
@@ -30,7 +30,7 @@ UAVIntro = 0;
 fireteamHUD = 0;
 
 // Дистанция обзора (должна быть не менее 200 метров)
-viewDistance = 3000;
+viewDistance = 1000;
 
 
 // Отключать возможность выбора дистанции обзора игроком от 200м до максимальной дистанции, установленной выше

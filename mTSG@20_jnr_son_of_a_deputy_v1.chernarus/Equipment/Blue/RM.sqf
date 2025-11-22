@@ -15,6 +15,7 @@ for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk318_Stanag";
 for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk262_Stanag";};
 for "_i" from 1 to 5 do {this addItemToVest "Chemlight_blue";};
 for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_mk84";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_CableTie";};
 this addItemToVest "rhs_mag_an_m8hc";
 this addItemToVest "rhs_mag_m7a3_cs";
 this addHeadgear "TRYK_H_PASGT_BLK";

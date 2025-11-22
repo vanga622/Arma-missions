@@ -12,6 +12,7 @@ for "_i" from 1 to 3 do {this addItemToVest "hlc_20rnd_762x51_b_G3";};
 for "_i" from 1 to 2 do {this addItemToVest "hlc_20rnd_762x51_T_G3";};
 for "_i" from 1 to 5 do {this addItemToBackpack "Chemlight_blue";};
 for "_i" from 1 to 1 do {this addItemToBackpack "rhs_mag_f1";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_CableTie";};
 this addHeadgear "H_Shemag_olive_hs";
 
 comment "Add items";

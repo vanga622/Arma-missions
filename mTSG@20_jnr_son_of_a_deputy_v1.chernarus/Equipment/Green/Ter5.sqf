@@ -13,6 +13,7 @@ for "_i" from 1 to 4 do {this addItemToVest "rhs_30Rnd_762x39mm_bakelite";};
 for "_i" from 1 to 2 do {this addItemToVest "rhs_30Rnd_762x39mm_bakelite_tracer";};
 for "_i" from 1 to 5 do {this addItemToBackpack "Chemlight_blue";};
 for "_i" from 1 to 1 do {this addItemToBackpack "rhs_mag_f1";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_CableTie";};
 this addHeadgear "H_Watchcap_cbr";
 
 comment "Add items";

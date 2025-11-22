@@ -15,8 +15,8 @@ _veh = _this select 0;
 		_veh addItemCargoGlobal ["ACE_MapTools", 1];
         _veh addItemCargoGlobal ["ACE_EarPlugs", 2];	
 		_veh addItemCargoGlobal ["ToolKit", 1];		
-		_veh addItemCargoGlobal ["rhsusf_cvc_alt_helmet", 2];		
-		_veh removeMagazines "tu_18Rnd_105mm_HEAT_MP";
+		_veh addItemCargoGlobal ["rhs_tsh4", 2];		
+
 		
 		
 		

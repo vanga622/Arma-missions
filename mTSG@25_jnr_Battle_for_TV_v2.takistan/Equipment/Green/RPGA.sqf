@@ -8,8 +8,8 @@ this forceAddUniform "LOP_U_AM_Fatigue_01";
 this addBackpack "B_Kitbag_tan";
 
 comment "Add items to containers";
-for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_smaw_HEAA";};
-for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_smaw_SR";};
+for "_i" from 1 to 2 do {this addItemToBackpack "rhs_rpg7_PG7VL_mag";};
+for "_i" from 1 to 2 do {this addItemToBackpack "rhs_rpg7_OG7V_mag";};
 for "_i" from 1 to 2 do {this addItemToBackpack "rhs_30Rnd_762x39mm_bakelite";};
 this addItemToBackpack "rhs_30Rnd_762x39mm_bakelite_tracer";
 this addItemToBackpack "rhs_mag_m67";

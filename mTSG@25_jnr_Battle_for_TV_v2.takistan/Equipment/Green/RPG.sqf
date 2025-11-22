@@ -2,18 +2,18 @@ comment "Add weapons";
 this addWeapon "rhs_pzn_weap_akmn";
 this addPrimaryWeaponItem "rhs_acc_dtkakm";
 this addPrimaryWeaponItem "rhs_30Rnd_762x39mm_bakelite";
-this addWeapon "rhs_weap_smaw";
-this addSecondaryWeaponItem "rhs_weap_optic_smaw";
-this addSecondaryWeaponItem "rhs_mag_smaw_HEAA";
-this addSecondaryWeaponItem "rhs_mag_smaw_SR";
+this addWeapon "rhs_weap_rpg7";
+this addSecondaryWeaponItem "rhs_acc_pgo7v3";
+this addSecondaryWeaponItem "rhs_rpg7_PG7VL_mag";
+
 
 comment "Add containers";
 this forceAddUniform "LOP_U_AM_Fatigue_01";
 this addBackpack "B_Kitbag_tan";
 
 comment "Add items to containers";
-for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_smaw_HEAA";};
-for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_smaw_SR";};
+for "_i" from 1 to 2 do {this addItemToBackpack "rhs_rpg7_PG7VL_mag";};
+for "_i" from 1 to 2 do {this addItemToBackpack "rhs_rpg7_OG7V_mag";};
 for "_i" from 1 to 2 do {this addItemToBackpack "rhs_30Rnd_762x39mm_bakelite";};
 this addItemToBackpack "rhs_30Rnd_762x39mm_bakelite_tracer";
 this addItemToBackpack "rhs_mag_m67";

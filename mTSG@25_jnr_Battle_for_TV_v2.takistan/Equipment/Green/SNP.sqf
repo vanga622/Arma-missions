@@ -11,7 +11,7 @@ this addBackpack "B_AssaultPack_sgg";
 comment "Add items to containers";
 this addItemToUniform "ACE_RangeCard";
 for "_i" from 1 to 3 do {this addItemToUniform "rhsusf_20Rnd_762x51_m118_special_Mag";};
-for "_i" from 1 to 6 do {this addItemToBackpack "rhsusf_20Rnd_762x51_m993_Mag";};
+for "_i" from 1 to 6 do {this addItemToBackpack "rhsusf_20Rnd_762x51_m118_special_Mag";};
 this addItemToBackpack "rhsusf_20Rnd_762x51_m62_Mag";
 for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_an_m8hc";};
 for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_m67";};

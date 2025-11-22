@@ -1,6 +1,6 @@
 
 comment "Add weapons";
-this addWeapon "hlc_rifle_aku12";
+this addWeapon "hlc_rifle_ak12";
 this addPrimaryWeaponItem "rhs_acc_1p87";
 this addPrimaryWeaponItem "rhs_30Rnd_545x39_7N22_plum_AK";
 

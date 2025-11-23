@@ -8,22 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=240;
+		nextID=243;
 	};
 	class MarkerIDProvider
 	{
-		nextID=2;
+		nextID=3;
 	};
 	class LayerIndexProvider
 	{
-		nextID=11;
+		nextID=19;
 	};
 	class Camera
 	{
-		pos[]={12169.469,358.80685,11265.039};
-		dir[]={0.95464921,-0.27685049,0.11066075};
-		up[]={0.27504611,0.96085864,0.031879384};
-		aside[]={0.11514547,5.5646524e-07,-0.99347883};
+		pos[]={12087.914,146.52094,12456.404};
+		dir[]={-0.56328917,-0.56148946,-0.60632044};
+		up[]={-0.38234538,0.82727766,-0.41154793};
+		aside[]={-0.73269451,3.4156765e-06,0.6806972};
 	};
 };
 binarizationWanted=0;
@@ -50,9 +50,9 @@ addons[]=
 	"A3_Structures_F_Orange_Signs_Special",
 	"A3_Structures_F_Civ_Camping",
 	"ace_sitting",
-	"A3_Ui_F",
 	"A3_Structures_F_Exp_Walls_Concrete",
-	"rds_a2port_cman"
+	"rds_a2port_cman",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
@@ -174,24 +174,24 @@ class AddonsMetaData
 		};
 		class Item17
 		{
-			className="A3_Ui_F";
-			name="Arma 3 - User Interface";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item18
-		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item18
 		{
 			className="rds_a2port_cman";
 			name="RDS Civilian Pack Characters";
 			author="reyhard";
 			url="https://forums.bistudio.com/topic/170165-rds-a2-civilian-pack/";
+		};
+		class Item19
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -267,7 +267,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=8;
+		items=10;
 		class Item0
 		{
 			dataType="Group";
@@ -5664,21 +5664,6 @@ class Mission
 		};
 		class Item4
 		{
-			dataType="Marker";
-			position[]={12026.234,140.024,12459.77};
-			name="blue";
-			markerType="RECTANGLE";
-			type="";
-			colorName="ColorBlue";
-			fillName="Grid";
-			a=22;
-			b=49;
-			angle=293.06891;
-			id=51;
-			atlOffset=0.00021362305;
-		};
-		class Item5
-		{
 			dataType="Layer";
 			name="Фортификации";
 			state=1;
@@ -6039,7 +6024,7 @@ class Mission
 			id=73;
 			atlOffset=1.2081604;
 		};
-		class Item6
+		class Item5
 		{
 			dataType="Group";
 			side="Civilian";
@@ -7629,7 +7614,7 @@ class Mission
 			id=228;
 			atlOffset=0.19099426;
 		};
-		class Item7
+		class Item6
 		{
 			dataType="Trigger";
 			position[]={12026.62,140.024,12460.403};
@@ -7643,6 +7628,50 @@ class Mission
 			};
 			id=239;
 			type="EmptyDetector";
+			atlOffset=0.00021362305;
+		};
+		class Item7
+		{
+			dataType="Marker";
+			position[]={12081.806,140.00301,12448.136};
+			name="freez1";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorWEST";
+			alpha=0;
+			a=3;
+			b=8;
+			angle=201.38292;
+			id=240;
+			atlOffset=0.00042724609;
+		};
+		class Item8
+		{
+			dataType="Marker";
+			position[]={11971.379,140.09801,12474.493};
+			name="freez2";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorWEST";
+			alpha=0;
+			a=3;
+			b=8;
+			angle=201.38292;
+			id=241;
+			atlOffset=-0.00033569336;
+		};
+		class Item9
+		{
+			dataType="Marker";
+			position[]={12026.273,140.024,12459.898};
+			name="blue";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			a=22;
+			b=49;
+			angle=293.06891;
+			id=242;
 			atlOffset=0.00021362305;
 		};
 	};

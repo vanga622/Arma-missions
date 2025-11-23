@@ -1,8 +1,9 @@
 //**** ВНИМАНИЕ!!!
 //**** ДАННЫЕ НАСТРОЙКИ ТЕРЯЮТ АКТУАЛЬНОСТЬ ПРИ УСТАНОВЛЕННОМ МОДУЛЕ АНАЛОГИЧНЫХ НАСТРОЕК ПЛАТФОРМЫ
 
+
 // Размер зоны для игроков на время подготовки
-prepareZoneSize = 250;
+prepareZoneSize = 100;
 blueforprepareZonemod = 1;
 opforprepareZonemod = 1;
 
@@ -14,14 +15,16 @@ blueforprepareVehClassesShow[] = {};
 blueforprepareVehClassesHide[] = {};
 blueforprepareVehHide[] = {};
 
+
 opforprepareFreezetimeZones[] = {}; //маркеры фриззоны, пустой {} — обычная фриззона
 opforprepareFreezetimeCondition[] = {}; //доп. условие фриззоны. Может содержать любой код, возвращающий булево значение;  false — игрок телепортируется обратно
-blueforprepareFreezetimeZones[] = {};
+blueforprepareFreezetimeZones[] = {"freez1", "freez2", "blue"};
 blueforprepareFreezetimeCondition[] = {};
 
 // Противоборствующие стороны ("WEST", "EAST", "INDEPENDENT")
 blueforSide = "WEST";
 opforSide =  "INDEPENDENT";
+
 
 // Интро (0 - нет, 1 - да)
 UAVIntro = 0;
@@ -31,7 +34,6 @@ fireteamHUD = 0;
 
 // Дистанция обзора (должна быть не менее 200 метров)
 viewDistance = 1000;
-
 
 // Отключать возможность выбора дистанции обзора игроком от 200м до максимальной дистанции, установленной выше
 Disable_ViewDistance_Dialog = 0;

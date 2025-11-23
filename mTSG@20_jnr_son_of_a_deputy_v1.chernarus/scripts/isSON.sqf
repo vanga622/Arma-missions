@@ -10,9 +10,9 @@ _botList = [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8];
         params ["_target", "_caller"];
         
         if (_target getVariable ["isVIP", false]) then {
-            hint "Это VIP!";
+            hint "Это сын депутата!";
         } else {
-            hint "Это не VIP.";
+            hint "Это не сын депутата.";
         };
     }, 
     {hint "Вопрос прерван."},

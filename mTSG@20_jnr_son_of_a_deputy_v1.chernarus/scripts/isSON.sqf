@@ -5,7 +5,7 @@ _botList = [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8];
     "((_this distance _target) < 3) && (alive _target) && (side _this == west)", 
     "((_this distance _target) < 3) && (alive _target)",
     {}, 
-    {hint "Идет опознание..."}, 
+    {hint "Ты сын депутата???"}, 
     {
         params ["_target", "_caller"];
         
@@ -15,6 +15,6 @@ _botList = [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8];
             hint "Это не VIP.";
         };
     }, 
-    {hint "Опознание прервано."},
-    [], 3, 0, false, false] call BIS_fnc_holdActionAdd;
+    {hint "Вопрос прерван."},
+    [], 1, 0, false, false] call BIS_fnc_holdActionAdd;
 } forEach _botList;

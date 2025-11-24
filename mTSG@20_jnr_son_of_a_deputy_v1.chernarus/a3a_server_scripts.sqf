@@ -17,6 +17,7 @@ waitUntil { sleep 3; a3a_var_started };
         // Завершение игры, если время прошло
         if (tu_platform_missiontime > 600) exitWith {
             ["Победа обороны! Время вышло, оперативники не выполнили задачу", independent] call a3a_fnc_endMission;
+			true
         };
 
         sleep 1;
@@ -24,17 +25,18 @@ waitUntil { sleep 3; a3a_var_started };
         // Проверка победы обороны (по потерям атаки)
         if ((west countSide playableUnits) < (2 + te_west_penalty)) exitWith {
             ["Победа террористов! Оперативники понесли потери и отступили", independent] call a3a_fnc_endMission;
+			true
         };
 
         // Проверка победы атаки (по потерям обороны)
         if ((independent countSide playableUnits) < (0 + te_green_penalty)) exitWith {
             ["Победа атаки! Террористы понесли потери и отступили!", west] call a3a_fnc_endMission;
+			true
         };
 
         sleep 1;
 
-        false
+		false
     };
 };
-
 

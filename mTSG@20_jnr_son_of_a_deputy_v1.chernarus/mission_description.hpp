@@ -1,4 +1,4 @@
-author = "Автор";
-onLoadName = "Название миссии";
-onLoadMission = "Какой-нибудь ещё текст";
+author = "[BARS]vanga";
+onLoadName = "Сын депутата";
+onLoadMission = "Arma 3 Tushino";
 loadScreen = "loadScreen.jpg";

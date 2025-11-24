@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=243;
+		nextID=244;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=23;
+		nextID=25;
 	};
 	class Camera
 	{
-		pos[]={11742.29,165.71037,12655.855};
-		dir[]={0.87054753,-0.19284339,0.45272332};
-		up[]={0.1710908,0.98122954,0.088974804};
-		aside[]={0.4613837,0,-0.88720071};
+		pos[]={12021.313,168.14603,12421.167};
+		dir[]={-0.066269048,-0.76714778,0.63810158};
+		up[]={-0.079247966,0.64143664,0.76306725};
+		aside[]={0.99468738,2.1259621e-07,0.10330076};
 	};
 };
 binarizationWanted=0;
@@ -208,6 +208,7 @@ class ScenarioData
 {
 	author="vanga";
 	respawn=1;
+	wreckRemovalMaxTime=3600;
 };
 class CustomAttributes
 {
@@ -267,7 +268,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=10;
+		items=11;
 		class Item0
 		{
 			dataType="Group";
@@ -7678,6 +7679,19 @@ class Mission
 			angle=293.06891;
 			id=242;
 			atlOffset=0.00021362305;
+		};
+		class Item10
+		{
+			dataType="Marker";
+			position[]={12026.262,140.02379,12459.891};
+			name="blue_1";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			a=22;
+			b=49;
+			angle=293.06891;
+			id=243;
 		};
 	};
 };

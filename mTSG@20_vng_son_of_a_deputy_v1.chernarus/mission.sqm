@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=244;
+		nextID=246;
 	};
 	class MarkerIDProvider
 	{
@@ -16,18 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=25;
+		nextID=27;
 	};
 	class Camera
 	{
-		pos[]={12021.313,168.14603,12421.167};
-		dir[]={-0.066269048,-0.76714778,0.63810158};
-		up[]={-0.079247966,0.64143664,0.76306725};
-		aside[]={0.99468738,2.1259621e-07,0.10330076};
+		pos[]={12052.314,193.31387,12527.982};
+		dir[]={-0.42770758,-0.49375221,-0.75731748};
+		up[]={-0.24280605,0.86957163,-0.42992309};
+		aside[]={-0.87086236,1.3922763e-06,0.49184343};
 	};
 };
 binarizationWanted=0;
-sourceName="mTSG@20_jnr_son_of_a_deputy_v1";
+sourceName="mTSG@20_vng_son_of_a_deputy_v1";
 addons[]=
 {
 	"A3_Characters_F_Enoch",
@@ -246,6 +246,7 @@ class Mission
 {
 	class Intel
 	{
+		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
 		startWind=0.1;
@@ -3713,7 +3714,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="Контейнеры";
-			state=1;
 			class Entities
 			{
 				items=94;
@@ -3967,7 +3967,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={12054.818,141.31033,12451.218};
-						angles[]={0,0.40914142,0};
+						angles[]={-0,0.40914142,0};
 					};
 					side="Empty";
 					flags=4;
@@ -4604,7 +4604,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={12051.497,143.94133,12453.153};
-						angles[]={0,2.1402338,0};
+						angles[]={-0,2.1402338,0};
 					};
 					side="Empty";
 					flags=4;
@@ -4655,7 +4655,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={12053.828,143.94133,12451.941};
-						angles[]={0,2.2198355,0};
+						angles[]={-0,2.2198355,0};
 					};
 					side="Empty";
 					flags=4;

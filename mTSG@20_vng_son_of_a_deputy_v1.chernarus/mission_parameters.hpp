@@ -16,9 +16,9 @@ blueforprepareVehClassesHide[] = {};
 blueforprepareVehHide[] = {};
 
 
-opforprepareFreezetimeZones[] = {}; //маркеры фриззоны, пустой {} — обычная фриззона
+opforprepareFreezetimeZones[] = {"blue"}; //маркеры фриззоны, пустой {} — обычная фриззона
 opforprepareFreezetimeCondition[] = {}; //доп. условие фриззоны. Может содержать любой код, возвращающий булево значение;  false — игрок телепортируется обратно
-blueforprepareFreezetimeZones[] = {"freez1", "freez2", "blue"};
+blueforprepareFreezetimeZones[] = {"freez1", "freez2"};
 blueforprepareFreezetimeCondition[] = {};
 
 // Противоборствующие стороны ("WEST", "EAST", "INDEPENDENT")

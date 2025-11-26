@@ -16,18 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=135;
+		nextID=139;
 	};
 	class Camera
 	{
-		pos[]={1854.3513,219.44493,11991.806};
-		dir[]={0.034148231,-0.96384317,-0.26455384};
-		up[]={0.12338272,0.26653168,-0.95588362};
-		aside[]={-0.9918378,-9.8400051e-07,-0.12802474};
+		pos[]={1831.8684,152.50798,11953.255};
+		dir[]={-0.80568624,-0.11856613,0.58053803};
+		up[]={-0.096422501,0.99287426,0.069480754};
+		aside[]={0.58466911,-3.0846713e-06,0.81142986};
 	};
 };
 binarizationWanted=0;
-sourceName="mTSG@25_jnr_Battle_for_TV_v2";
+sourceName="mTSG@25_vng_Battle_for_TV_v2";
 addons[]=
 {
 	"A3_Characters_F",
@@ -4800,7 +4800,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="Фортификации";
-			state=1;
 			class Entities
 			{
 				items=20;
@@ -5035,17 +5034,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1833.2111,150.842,11966.858};
+						position[]={1833.0282,150.6709,11967.035};
 						angles[]={0,5.5912323,0};
 					};
 					side="Empty";
-					flags=5;
+					flags=1;
 					class Attributes
 					{
 						disableSimulation=1;
 					};
 					id=143;
 					type="Land_SandbagBarricade_01_hole_F";
+					atlOffset=3.5016785;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5479,7 +5479,7 @@ class Mission
 				};
 			};
 			id=80;
-			atlOffset=1.5301666;
+			atlOffset=1.5301514;
 		};
 		class Item12
 		{
@@ -7701,11 +7701,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=6;
+			nextID=9;
 		};
 		class Links
 		{
-			items=6;
+			items=9;
 			class Item0
 			{
 				linkID=0;
@@ -7761,6 +7761,36 @@ class Mission
 				linkID=5;
 				item0=192;
 				item1=193;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item6
+			{
+				linkID=6;
+				item0=197;
+				item1=37;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item7
+			{
+				linkID=7;
+				item0=63;
+				item1=8;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item8
+			{
+				linkID=8;
+				item0=196;
+				item1=29;
 				class CustomData
 				{
 					type="Sync";

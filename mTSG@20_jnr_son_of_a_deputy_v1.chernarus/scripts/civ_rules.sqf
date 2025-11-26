@@ -27,7 +27,7 @@ te_green_penalty = 0;
             
             // Зелёная сторона убила бота
             if (side _instigator == INDEPENDENT || side _killer == INDEPENDENT) then {
-                te_green_penalty = te_green_penalty + 2;
+                te_green_penalty = te_green_penalty + 5;
                 if !(isNil "tu_log_mission_message") then {
                     tu_log_mission_message pushBack "Зеленая сторона убила невинного бойца";
                 };

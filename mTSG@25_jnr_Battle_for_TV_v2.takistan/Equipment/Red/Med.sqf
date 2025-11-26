@@ -2,7 +2,7 @@
 comment "Add weapons";
 this addWeapon "hlc_rifle_ak12";
 this addPrimaryWeaponItem "rhs_acc_1p87";
-this addPrimaryWeaponItem "rhs_30Rnd_545x39_7N22_plum_AK";
+this addPrimaryWeaponItem "rhs_30Rnd_545x39_7N6M_plum_AK";
 
 comment "Add containers";
 this forceAddUniform "CUP_U_O_RUS_BeigeDigital_MSV";
@@ -11,7 +11,7 @@ this addBackpack "CUP_O_RUS_Patrol_bag_BeigeDigital";
 
 comment "Add items to containers";
 for "_i" from 1 to 2 do {this addItemToUniform "ACE_quikclot";};
-for "_i" from 1 to 3 do {this addItemToUniform "rhs_30Rnd_545x39_7N6_AK";};
+for "_i" from 1 to 4 do {this addItemToVest "rhs_30Rnd_545x39_7N6M_plum_AK";};
 for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rdg2_white";};
 for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rgd5";};
 for "_i" from 1 to 20 do {this addItemToBackpack "ACE_elasticBandage";};

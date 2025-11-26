@@ -3,7 +3,7 @@
 comment "Add weapons";
 this addWeapon "CUP_lmg_PKM_top_rail";
 this addPrimaryWeaponItem "rhs_acc_1p87";
-this addPrimaryWeaponItem "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+this addPrimaryWeaponItem "rhs_100Rnd_762x54mmR";
 
 comment "Add containers";
 this forceAddUniform "CUP_U_O_RUS_BeigeDigital_MSV";
@@ -14,11 +14,9 @@ comment "Add items to containers";
 for "_i" from 1 to 2 do {this addItemToUniform "ACE_quikclot";};
 for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rdg2_white";};
 for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rgd5";};
-for "_i" from 1 to 2 do {this addItemToVest "rhs_100Rnd_762x54mmR_7N13";};
-this addItemToVest "rhs_100Rnd_762x54mmR_green";
-for "_i" from 1 to 2 do {this addItemToBackpack "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";};
-for "_i" from 1 to 2 do {this addItemToBackpack "rhs_100Rnd_762x54mmR_7N13";};
-this addItemToBackpack "rhs_100Rnd_762x54mmR_green";
+for "_i" from 1 to 2 do {this addItemToVest "rhs_100Rnd_762x54mmR";};
+for "_i" from 1 to 2 do {this addItemToBackpack "rhs_100Rnd_762x54mmR";};
+for "_i" from 1 to 2 do {this addItemToBackpack "rhs_100Rnd_762x54mmR_green";};
 this addHeadgear "CUP_H_RUS_6B47_v2_BeigeDigital";
 this addGoggles "PBW_Balaclava_schwarz";
 

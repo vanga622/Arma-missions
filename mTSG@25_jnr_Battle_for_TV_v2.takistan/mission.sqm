@@ -16,18 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=139;
+		nextID=143;
 	};
 	class Camera
 	{
-		pos[]={1831.8684,152.50798,11953.255};
-		dir[]={-0.80568624,-0.11856613,0.58053803};
-		up[]={-0.096422501,0.99287426,0.069480754};
-		aside[]={0.58466911,-3.0846713e-06,0.81142986};
+		pos[]={792.1944,569.17749,10515.347};
+		dir[]={-0.69944203,-0.29600322,-0.65050983};
+		up[]={-0.21675035,0.95518696,-0.20158674};
+		aside[]={-0.68102884,1.4901161e-08,0.73225671};
 	};
 };
 binarizationWanted=0;
-sourceName="mTSG@25_vng_Battle_for_TV_v2";
+sourceName="mTSG@25_jnr_Battle_for_TV_v2";
 addons[]=
 {
 	"A3_Characters_F",

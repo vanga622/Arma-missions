@@ -2,7 +2,7 @@
 comment "Add weapons";
 this addWeapon "hlc_rifle_ak12";
 this addPrimaryWeaponItem "RH_eothhs1";
-this addPrimaryWeaponItem "rhs_30Rnd_545x39_7N22_plum_AK";
+this addPrimaryWeaponItem "rhs_30Rnd_545x39_7N6M_plum_AK";
 this addWeapon "rhs_weap_makarov_pm";
 this addHandgunItem "rhs_mag_9x18_8_57N181S";
 
@@ -18,7 +18,7 @@ comment "Add items to containers";
 for "_i" from 1 to 2 do {this addItemToUniform "ACE_quikclot";};
 for "_i" from 1 to 2 do {this addItemToUniform "rhs_mag_9x18_8_57N181S";};
 for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_9x18_8_57N181S";};
-for "_i" from 1 to 4 do {this addItemToVest "rhs_30Rnd_545x39_7N22_plum_AK";};
+for "_i" from 1 to 4 do {this addItemToVest "rhs_30Rnd_545x39_7N6M_plum_AK";};
 for "_i" from 1 to 2 do {this addItemToVest "rhs_30Rnd_545x39_AK_plum_green";};
 for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rdg2_white";};
 for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rgd5";};

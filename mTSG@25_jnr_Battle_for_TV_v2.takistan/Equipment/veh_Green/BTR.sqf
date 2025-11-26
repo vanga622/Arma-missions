@@ -13,8 +13,7 @@ _veh = _this select 0;
 		_veh addItemCargoGlobal ["rhs_mag_an_m8hc", 6];
 		_veh addItemCargoGlobal ["rhs_mag_30Rnd_556x45_M855A1_Stanag", 6];
 		_veh addItemCargoGlobal ["ACE_MapTools", 1];
-        _veh addItemCargoGlobal ["ACE_EarPlugs", 2];	
-		_veh addItemCargoGlobal ["ToolKit", 1];		
+        _veh addItemCargoGlobal ["ACE_EarPlugs", 2];		
 		_veh addItemCargoGlobal ["rhs_tsh4", 2];		
 
 		

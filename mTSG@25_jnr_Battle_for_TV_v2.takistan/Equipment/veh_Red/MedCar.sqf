@@ -1,6 +1,6 @@
 _veh = _this select 0;
 
-_veh addItemcargoglobal ["rhs_30Rnd_545x39_7N22_plum_AK", 10]; 
+_veh addItemcargoglobal ["rhs_30Rnd_545x39_7N6M_plum_AK", 10]; 
 _veh addItemcargoglobal ["rhs_VOG25", 20];
 _veh addItemcargoglobal ["rhs_mag_rgd5", 10];
 _veh addItemcargoglobal ["rhs_mag_rdg2_white", 15];

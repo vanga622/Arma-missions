@@ -29,7 +29,7 @@ waitUntil { sleep 3; a3a_var_started };
         };
 
         // Проверка победы атаки (по потерям обороны)
-        if ((independent countSide playableUnits) < (0 + te_green_penalty)) exitWith {
+        if ((independent countSide playableUnits) < (1 + te_green_penalty)) exitWith {
             ["Победа атаки! Террористы понесли потери и отступили!", west] call a3a_fnc_endMission;
 			true
         };
